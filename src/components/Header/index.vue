@@ -4,7 +4,7 @@
             <div>
                 <router-link to="*" class="nav__logo">Scott</router-link>
             </div>
-            <div class="nav__menu" id="nav-menu">
+            <div :class="[isMenuShow ? show : '']" class="nav__menu " id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><router-link to="/home" class="nav__link active">Home</router-link></li>
                     <li class="nav__item"><router-link to="/about" class="nav__link">About</router-link></li>
@@ -15,7 +15,7 @@
             </div>
 
             <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
+                <i @click="isMenuShow = !isMenuShow" class='bx bx-menu'></i>
             </div>
         </nav>
     </header>
@@ -23,7 +23,13 @@
 
 <script>
 export default {
-    name:''
+    name:'',
+    data() {
+        return {
+            isMenuShow:false,
+            show:'show'
+        }
+    },
 }
 </script>
 
