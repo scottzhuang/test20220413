@@ -486,7 +486,7 @@ img{
         margin-right: auto;
     }
     .home__img{
-        right: 10%;
+        right: 15%;
     }
 }
 </style>
