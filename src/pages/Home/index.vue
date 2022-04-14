@@ -3,7 +3,7 @@
   <div class="l-main">
       <section class="home bd-grid" id="home">
       <div class="home__data">
-          <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">莊晉翔</span><br> Web Designer</h1>
+          <h1 class="home__title">Hi, <br>I'm <span class="home__title-color">莊晉翔</span><br> Front-end <br>Developer</h1>
           <router-link to="/contact" class="button">Contact</router-link>
       </div>
 

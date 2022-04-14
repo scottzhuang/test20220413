@@ -30,7 +30,7 @@ export default {
 }
 /* ===== Colores ====== */
 :root{
-    --first-color: #4070F4;
+    --first-color: #6BB8FF;
     --second-color: #0E2431;
 }
 /* ====== Fuente y tipografia ===== */
@@ -323,13 +323,16 @@ img{
     width: 85%;
 }
 .skills__js{
-    width: 65%;
+    width: 45%;
 }
 .skills__python{
     width: 85%;
 }
 .skills__github{
     width: 55%;
+}
+.skills__vue{
+    width: 70%;
 }
 .skills__img{
     justify-self: center;

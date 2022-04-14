@@ -8,7 +8,7 @@
             <a href="" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
             <a href="https://github.com/scottJinXiang" class="footer__icon"><i class='bx bxl-github' ></i></a>
         </div>
-        <p>&#169;2021 copyright all right reserced</p>
+        <p>&#169;2021 copyright all right reserved</p>
 
     </footer>
 </template>

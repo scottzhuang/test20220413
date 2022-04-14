@@ -41,7 +41,7 @@
                     </div>
 
                     <div>
-                        <span class="skills__percentage">65%</span>
+                        <span class="skills__percentage">45%</span>
                     </div>
                     
                     <div class="skills__bar skills__js"></div>
@@ -71,6 +71,19 @@
                     </div>
                     
                     <div class="skills__bar skills__github"></div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-vuejs skills__icon'></i>
+                        <span class="skills__name ">Vue.js</span>
+                    </div>
+
+                    <div>
+                        <span class="skills__percentage">70%</span>
+                    </div>
+                    
+                    <div class="skills__bar skills__vue"></div>
                 </div>
 
             </div>

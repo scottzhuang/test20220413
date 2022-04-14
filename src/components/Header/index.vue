@@ -6,11 +6,11 @@
             </div>
             <div :class="[isMenuShow ? show : '']" class="nav__menu " id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><router-link to="/home" class="nav__link active">Home</router-link></li>
-                    <li class="nav__item"><router-link to="/about" class="nav__link">About</router-link></li>
-                    <li class="nav__item"><router-link to="/skills" class="nav__link">Skills</router-link></li>
-                    <li class="nav__item"><router-link to="/work" class="nav__link">Work</router-link></li>
-                    <li class="nav__item"><router-link to="/contact" class="nav__link">Contact</router-link></li>
+                    <li class="nav__item"><router-link to="/home" class="nav__link" active-class="active">Home</router-link></li>
+                    <li class="nav__item"><router-link to="/about" class="nav__link" active-class="active">About</router-link></li>
+                    <li class="nav__item"><router-link to="/skills" class="nav__link" active-class="active">Skills</router-link></li>
+                    <li class="nav__item"><router-link to="/work" class="nav__link" active-class="active">Work</router-link></li>
+                    <li class="nav__item"><router-link to="/contact" class="nav__link" active-class="active">Contact</router-link></li>
                 </ul>
             </div>
 

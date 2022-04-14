@@ -10,7 +10,7 @@
 
             <div>
                 <h2 class="about__subtitle">I'am Scott</h2>
-                <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                <p class="about__text">前端職業求職中</p>
             </div>
         </div>
     </section>
