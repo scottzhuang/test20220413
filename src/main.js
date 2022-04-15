@@ -9,4 +9,7 @@ import router from './router'
 new Vue({
   render: h => h(App),
   router,
+  beforeCreate(){
+    Vue.prototype.$bus = this
+  }
 }).$mount('#app')

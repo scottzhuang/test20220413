@@ -1,8 +1,10 @@
 <template>
+
   <div id="app">
     <Header/>
     <router-view></router-view>
     <Footer/>
+    <button >test</button>
   </div>
 </template>
 
@@ -14,7 +16,28 @@ export default {
   components: {
     Header,
     Footer
-  }
+  },
+  mounted() {
+    this.root = document.documentElement;
+    this.$bus.$on('changeColor', this.changeColor);
+    console.log(this)
+  },
+  data() {
+      return {
+          gobalColor:['red', 'black', 'green', 'yellow', 'pink', '#6BB8FF'],
+          colorNumber:0
+      }
+  },
+  methods: {
+      changeColor(){
+          console.log('123')
+        if(this.colorNumber == 6){
+            this.colorNumber = 0
+        }
+        this.root.style.setProperty("--first-color",`${this.gobalColor[this.colorNumber]}`)
+        this.colorNumber++ 
+      },
+  },
 }
 </script>
 
@@ -185,6 +208,12 @@ img{
     color: var(--second-color);
     font-size: 1.5rem;
     cursor: pointer;
+}
+.nav__item__palette{
+    color:var(--first-color);
+    position: relative;
+    cursor: pointer;
+    font-size: var(--h2-font-size);
 }
 /* Aactive menu */
 .active::after{
