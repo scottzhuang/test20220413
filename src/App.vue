@@ -4,7 +4,6 @@
     <Header/>
     <router-view></router-view>
     <Footer/>
-    <button >test</button>
   </div>
 </template>
 
