@@ -6,12 +6,12 @@
             </div>
             <div :class="[isMenuShow ? show : '']" class="nav__menu " id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><router-link to="/home" class="nav__link" active-class="active">Home</router-link></li>
-                    <li class="nav__item"><router-link to="/about" class="nav__link" active-class="active">About</router-link></li>
-                    <li class="nav__item"><router-link to="/skills" class="nav__link" active-class="active">Skills</router-link></li>
-                    <li class="nav__item"><router-link to="/work" class="nav__link" active-class="active">Work</router-link></li>
-                    <li class="nav__item"><router-link to="/contact" class="nav__link" active-class="active">Contact</router-link></li>
-                    <li class="nav__item"><i @click="doChangeColor()" class='bx bxs-palette nav__item__palette'></i></li>
+                    <li class="nav__item" @click="isMenuShow = !isMenuShow"><router-link to="/home" class="nav__link" active-class="active">Home</router-link></li>
+                    <li class="nav__item" @click="isMenuShow = !isMenuShow"><router-link to="/about" class="nav__link" active-class="active">About</router-link></li>
+                    <li class="nav__item" @click="isMenuShow = !isMenuShow"><router-link to="/skills" class="nav__link" active-class="active">Skills</router-link></li>
+                    <li class="nav__item" @click="isMenuShow = !isMenuShow"><router-link to="/work" class="nav__link" active-class="active">Work</router-link></li>
+                    <li class="nav__item" @click="isMenuShow = !isMenuShow"><router-link to="/contact" class="nav__link" active-class="active">Contact</router-link></li>
+                    <li class="nav__item" ><i @click="doChangeColor()" class='bx bxs-palette nav__item__palette'></i></li>
                 </ul>
             </div>
 
@@ -35,7 +35,7 @@ export default {
         doChangeColor(){
             console.log('@')
             this.$bus.$emit('changeColor',)
-        }
+        },
     }
 }
 </script>

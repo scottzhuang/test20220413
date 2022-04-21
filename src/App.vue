@@ -518,4 +518,11 @@ img{
         right: 15%;
     }
 }
+@media screen and (max-width: 768px) {
+    .home__img{
+        width: 150px;
+        margin-top: -100px;
+        padding-top: 50px;
+    }
+}
 </style>
