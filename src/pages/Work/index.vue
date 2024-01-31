@@ -11,7 +11,7 @@
             </div>
 
             <div class="work__img">
-                <img src="./images/scott02.jpg" alt="">
+                <router-link to="/project/fullcalendar" class="nav__link" active-class="active"><img src="./images/scott02.jpg" alt=""></router-link>
             </div>
 
             <div class="work__img">
